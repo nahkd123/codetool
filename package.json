@@ -1,0 +1,21 @@
+{
+  "name": "@nahkd123/codetool",
+  "version": "1.0.0",
+  "description": "CLI tools to work faster with your code",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "watch": "tsc --watch"
+  },
+  "bin": {
+    "codetool": "./dist/clibin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,11 @@
+@template test id:snake
+@use filename ${{ id.pascal }}.txt
+@endheader
+
+Hello my fellow ${{ id.pascal }} (with registry ID of ${{ id.snake }})!
+
+- Snake case: ${{ id.snake }}
+- Pascal case: ${{ id.pascal }}
+- Camel case: ${{ id.camel }}
+- Kebab case: ${{ id.kebab }}
+- Constant case: ${{ id.constant }}

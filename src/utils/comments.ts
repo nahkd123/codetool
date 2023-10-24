@@ -1,0 +1,1 @@
+export const C_STYLE_COMMENT = /(?<indent>(?!\n)(\s*))(\/\/(?<contentInline>.+?)\n|\/(?<contentBlock>\*.+?\*)\/)/gs;

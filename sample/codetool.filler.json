@@ -1,0 +1,6 @@
+{
+    "mapping": [
+        { "regex": ".+\\.txt$", "flags": "g", "mode": "in-source" },
+        { "regex": ".+\\.template", "flags": "g", "mode": "file-template" }
+    ]
+}

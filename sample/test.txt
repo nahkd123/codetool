@@ -1,0 +1,4 @@
+/*
+ * @template test id:snake
+ * Referencing ${{ id.pascal }}.txt
+ */
