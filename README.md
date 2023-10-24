@@ -63,7 +63,7 @@ public void onInitialize() {
 }
 ```
 
-In your template file, you'll can write like this:
+In your template file, you can write like this:
 
 ```
 @template cosmetic id:snake
