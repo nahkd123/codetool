@@ -99,7 +99,7 @@ public class MyCosmetic implements Cosmetic {
 
 You might have noticed: there's a `:snake` after your parameter name. This is what we call "input parameter case specifier". If you don't specify the initial case, stuffs like `${{ param.pascal }}` will not work (in this case, it will not give you PascalCase version of your `param`).
 
-There are x cases for identifiers that you can use:
+There are 5 cases for identifiers that you can use:
 - `PascalCase`: For Java class names and C# symbols.
 - `snake_case`: For Rust, JSON and string IDs.
 - `kebab-case`: For CSS.
